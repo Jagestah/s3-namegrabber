@@ -13,4 +13,5 @@ To build docker image:
 
 To use the docker image:
 `docker run -it s3-namegrabber <bucket-name> <region>`
+
 If the region desired is `us-east-1` then omit the region argument
