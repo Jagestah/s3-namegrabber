@@ -12,4 +12,5 @@ To build docker image:
 `docker build . -t s3-namegrabber --build-arg AWS_ACCESS_KEY=${AWS_ACCESS_KEY} --build-arg AWS_SECRET_ACCESS_KEY=${AWS_SECRET_ACCESS_KEY}`
 
 To use the docker image:
-`docker run -it s3-namegrabber <bucket-name>`
+`docker run -it s3-namegrabber <bucket-name> <region>`
+If the region desired is `us-east-1` then omit the region argument
